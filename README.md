@@ -43,7 +43,7 @@ liquibase.password=
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
 
-    <changeSet id="2017-02-15 12:00" author="turgay">
+    <changeSet id="2017-02-15 12:00" author="geetha">
         <createTable tableName="city">
             <column name="id" type="long" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
